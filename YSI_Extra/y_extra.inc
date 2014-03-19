@@ -15,10 +15,10 @@
 #include "..\YSI_Players\y_text"
 
 #if defined _inc_y_users
-	#include "extra\y_extra_users"
+	#include "YSI_Extra\y_extra_users"
 #endif
 
 // Don't need to check for y_languages being included as it's done by y_text.
-#include "extra\y_extra_languages"
+#include "YSI_Extra\y_extra_languages"
 
-#include "extra\y_extra_other"
+#include "YSI_Extra\y_extra_other"
